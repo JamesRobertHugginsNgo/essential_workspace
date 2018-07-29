@@ -80,11 +80,11 @@ export function watch() {
 			open: true
 		}));
 
-	gulp.watch(buildJsSrc, () => buildJs());
-	gulp.watch(buildSassSrc, () => buildSass());
-	gulp.watch(buildHtmlSrc, () => buildHtml());
+	gulp.watch(buildJsSrc, buildJs);
+	gulp.watch(buildSassSrc, buildSass);
+	gulp.watch(buildHtmlSrc, buildHtml);
 
 	const templateGlob = './src/**/*.template.html';
-	gulp.watch(templateGlob, () => build());
+	gulp.watch(templateGlob, build);
 }
 export const serve = gulp.series(build, watch);
