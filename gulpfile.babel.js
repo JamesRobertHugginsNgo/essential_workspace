@@ -12,13 +12,9 @@ import uglify from 'gulp-uglify';
 import webDependencies from 'gulp-web-dependencies';
 import webServer from 'gulp-webserver';
 
-////////////////////////////////////////////////////////////////////////////////
-
 export function clean() {
 	return del('./dist');
 }
-
-////////////////////////////////////////////////////////////////////////////////
 
 const buildJsSrc = './src/**/*.js';
 export function buildJs() {
@@ -36,8 +32,6 @@ export function buildJs() {
 		.pipe(gulp.dest(buildJsDest));
 }
 
-////////////////////////////////////////////////////////////////////////////////
-
 const buildSassSrc = './src/**/*.scss';
 export function buildSass() {
 	const buildSassDest = './dist/';
@@ -53,8 +47,6 @@ export function buildSass() {
 		.pipe(gulp.dest(buildSassDest));
 }
 
-////////////////////////////////////////////////////////////////////////////////
-
 const buildHtmlSrc = './src/**/*.html';
 export function buildHtml() {
 	const buildHtmlDest = './dist/';
@@ -64,12 +56,8 @@ export function buildHtml() {
 		.pipe(gulp.dest(buildHtmlDest));
 }
 
-////////////////////////////////////////////////////////////////////////////////
-
 export const build = gulp.series(clean, gulp.parallel(buildJs, buildSass, buildHtml));
 export default build;
-
-////////////////////////////////////////////////////////////////////////////////
 
 export function watch() {
 	const servePath = '.';
