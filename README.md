@@ -131,6 +131,7 @@ Includes JQuery 3,Bootstrap 4, Backbone, Underscore & Babel Polifill.
 1. Perform first commit and push to origin.
 
    ``` shell
+   git add .
    git commit -m "First Commit"
    git push -u origin master
    ```
