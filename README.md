@@ -135,6 +135,12 @@ Includes JQuery 3,Bootstrap 4, Backbone, Underscore & Babel Polifill.
    git push -u origin master
    ```
 
+1. Install dependencies.
+
+   ``` shell
+   npm install
+   ```
+
 ## Development
 
 All development are done on the src folder and built to the dist folder.
