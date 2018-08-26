@@ -32,24 +32,27 @@ Includes JQuery 3,Bootstrap 4, Backbone, Underscore & Babel Polifill.
 
    ``` json
    {
-      "name": "essential_workspace",
+      "name": "npm_webapp_workspace",
+      "description": "A starter project for ES6 web app development.",
       "version": "1.0.0",
-      "description": "Essential workspace for web app projects.",
-      "main": "index.js",
+      "main": "gulpfile.babel.js",
+      "directories": {
+        "test": "test"
+      },
       "scripts": {
-         "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
       },
       "repository": {
-         "type": "git",
-         "url": "git+https://github.com/JamesRobertHugginsNgo/essential_workspace.git"
+        "type": "git",
+        "url": "git+https://github.com/JamesRobertHugginsNgo/npm_webapp_workspace.git"
       },
       "keywords": [],
-      "author": "James Robert Huggins Ngo",
+      "author": "",
       "license": "ISC",
       "bugs": {
-         "url": "https://github.com/JamesRobertHugginsNgo/essential_workspace/issues"
+        "url": "https://github.com/JamesRobertHugginsNgo/npm_webapp_workspace/issues"
       },
-      "homepage": "https://github.com/JamesRobertHugginsNgo/essential_workspace#readme",
+      "homepage": "https://github.com/JamesRobertHugginsNgo/npm_webapp_workspace#readme",
       "devDependencies": {
          "babel-cli": "^6.26.0",
          "babel-preset-env": "^1.7.0",
