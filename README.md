@@ -161,6 +161,12 @@ To build the project and run a web server, use the serve parameter.
 gulp serve
 ```
 
+A watch task also exists to build the project and watch for changes without running a web server.
+
+``` shell
+gulp watch
+```
+
 <small>Note: Use CNTRL + C to end gulp serve.</small>
 
 The web server, by default, opens the root folder.
