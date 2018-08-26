@@ -1,4 +1,4 @@
-# Essential Workspace
+# NPM WebApp Workspace
 
 A starter project for ES6 web app development.
 
@@ -9,7 +9,7 @@ Includes JQuery 3,Bootstrap 4, Backbone, Underscore & Babel Polifill.
 1. Clone workspace repo and assign a new workspace name. Then check out the latest version.
 
    ``` shell
-   git clone https://github.com/JamesRobertHugginsNgo/essential_workspace.git NEW_WORKSPACE
+   git clone https://github.com/JamesRobertHugginsNgo/npm_webapp_workspace.git NEW_WORKSPACE
    git checkout 1.0.0
    ```
 
